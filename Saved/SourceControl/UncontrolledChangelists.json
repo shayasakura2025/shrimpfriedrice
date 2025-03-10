@@ -5,6 +5,22 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/mjmer/OneDrive/Documents/GitHub/shrimpfriedrice/Content/InteractableResources/BP_PickUpItem.uasset",
+				"C:/Users/mjmer/OneDrive/Documents/GitHub/shrimpfriedrice/Content/InteractableResources/Interfaces/BPI_Interactable.uasset",
+				"C:/Users/mjmer/OneDrive/Documents/GitHub/shrimpfriedrice/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/mjmer/OneDrive/Documents/GitHub/shrimpfriedrice/Content/InteractableResources/Interfaces/PlayerInteractionComponent.uasset",
+				"C:/Users/mjmer/OneDrive/Documents/GitHub/shrimpfriedrice/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"C:/Users/mjmer/OneDrive/Documents/GitHub/shrimpfriedrice/Content/ThirdPerson/Input/Actions/IA_Interact.uasset",
+				"C:/Users/mjmer/OneDrive/Documents/GitHub/shrimpfriedrice/Content/InteractableResources/Widgets/WB_InteractionWidget.uasset",
+				"C:/Users/mjmer/OneDrive/Documents/GitHub/shrimpfriedrice/Content/CustomAssets/Characters/Shrimp/ShrimpCOLORTEST.uasset",
+				"C:/Users/mjmer/OneDrive/Documents/GitHub/shrimpfriedrice/Content/InteractableResources/BP_NPC.uasset",
+				"C:/Users/mjmer/OneDrive/Documents/GitHub/shrimpfriedrice/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/IR/H8GJYC02NOKQT3GBYXX800.uasset",
+				"C:/Users/mjmer/OneDrive/Documents/GitHub/shrimpfriedrice/Content/CustomAssets/Characters/Shrimp/Shrimp_wrap.uasset",
+				"C:/Users/mjmer/OneDrive/Documents/GitHub/shrimpfriedrice/Content/CustomAssets/Characters/Shrimp/Shrimp_wrap_Mat.uasset",
+				"C:/Users/mjmer/OneDrive/Documents/GitHub/shrimpfriedrice/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset",
+				"C:/Users/mjmer/OneDrive/Documents/GitHub/shrimpfriedrice/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/PN/2QISIGK5DJNQ05US8O8FXW.uasset",
+				"C:/Users/mjmer/OneDrive/Documents/GitHub/shrimpfriedrice/Content/CustomAssets/Characters/Shrimp/ShrimpColor.uasset",
+				"C:/Users/mjmer/OneDrive/Documents/GitHub/shrimpfriedrice/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
 				"C:/Users/zoomi/Documents/Unreal Projects/ShrimpISR/Content/StarterContent/Architecture/Floor_400x400.uasset"
 			]
 		}
