@@ -5,7 +5,16 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/zoomi/Documents/Unreal Projects/shrimpfriedrice/Content/CustomAssets/UI/ProgressBar.uasset"
+				"C:/Users/zoomi/Documents/Unreal Projects/shrimpfriedrice/Content/CustomAssets/UI/ProgressBar.uasset",
+				"C:/Users/zoomi/Documents/Unreal Projects/shrimpfriedrice/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HZ/IM36C9B7ZBPFQDUIO7OEK0.uasset",
+				"C:/Users/zoomi/Documents/Unreal Projects/shrimpfriedrice/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/8L/UOHKNXTD1M15VDYQ2Q3CSV.uasset",
+				"C:/Users/zoomi/Documents/Unreal Projects/shrimpfriedrice/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/BG/HBVXI5RWEBLQ14OVN0OCZ3.uasset",
+				"C:/Users/zoomi/Documents/Unreal Projects/shrimpfriedrice/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/G9/5NAL5SO1JO270FHU03ER5W.uasset",
+				"C:/Users/zoomi/Documents/Unreal Projects/shrimpfriedrice/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/5V/S11RUZHSQUAPERW6HAE8WI.uasset",
+				"C:/Users/zoomi/Documents/Unreal Projects/shrimpfriedrice/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/QX/AL0RWU8YWHATYMOIF6XUCB.uasset",
+				"C:/Users/zoomi/Documents/Unreal Projects/shrimpfriedrice/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/7W/301SM499Z15IBL6LLRW8PR.uasset",
+				"C:/Users/zoomi/Documents/Unreal Projects/shrimpfriedrice/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/Z5/R56L89VWRF4A4YBCMER6PM.uasset",
+				"C:/Users/zoomi/Documents/Unreal Projects/shrimpfriedrice/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/NM/MEXNEFTX2LGOOEQZM7UU4F.uasset"
 			]
 		}
 	]
