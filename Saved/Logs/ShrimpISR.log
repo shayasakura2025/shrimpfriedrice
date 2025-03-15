@@ -1504,3 +1504,311 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.03.15-18.57.29:688][337]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
 [2025.03.15-18.57.29:688][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2025.03.15-18.57.29:748][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.03.15-18.58.00:964][668]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.03.15-18.58.00:970][668]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.03.15-18.58.00:970][668]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.03.15-18.58.00:974][668]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 3.736 ms (total: 7.652 ms)
+[2025.03.15-18.58.00:974][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.03.15-18.58.00:974][668]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.03.15-18.58.00:981][668]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.58.00:981][668]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.58.00:983][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007793s)
+[2025.03.15-18.58.00:983][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.007826s)
+[2025.03.15-18.58.01:001][668]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.03.15-18.58.01:003][668]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.03.15-18.58.01:005][668]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.03.15-18.58.01:005][668]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.03.15-18.58.01:005][668]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.03.15-18.58.01:005][668]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.03.15-18.58.01:008][668]LogWorldPartition: Display: WorldPartition initialize took 3.419 ms (total: 182.566 ms)
+[2025.03.15-18.58.01:008][668]LogPlayLevel: PIE: World Init took: (0.005287s)
+[2025.03.15-18.58.01:009][668]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.03.15-18.58.01:009][668]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.03.15-18.58.01:009][668]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.03.15-18.58.01:009][668]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.03.15-18.58.01:009][668]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.03.15-18.58.01:009][668]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.03.15-18.58.01:009][668]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.03.15-18.58.01:009][668]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.03.15-18.58.01:009][668]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.03.15-18.58.01:009][668]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.03.15-18.58.01:009][668]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.03.15-18.58.01:009][668]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.03.15-18.58.01:011][668]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.03.15-18.58.01:052][668]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.03.15-18.58.01:052][668]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.03.15-18.58.01:052][668]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.03.15-18.58.01:052][668]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.03.15-18.58.01:052][668]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.03.15-18.58.01:052][668]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.03.15-18.58.01:055][668]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.03.15-18.58.01:057][668]LogInit: FAudioDevice initialized with ID 3.
+[2025.03.15-18.58.01:057][668]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.03.15-18.58.01:057][668]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonMap'.
+[2025.03.15-18.58.01:057][668]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.03.15-18.58.01:060][668]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.03.15-18.58.01:061][668]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.58.01:062][668]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.58.01:062][668]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.58.01:062][668]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.58.01:066][668]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.58.01:066][668]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.58.01:066][668]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.58.01:066][668]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.58.01:066][668]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.58.01:066][668]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.58.01:066][668]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.58.01:066][668]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.58.01:066][668]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.58.01:067][668]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.03.15-14.58.01
+[2025.03.15-18.58.01:069][668]LogWorld: Bringing up level for play took: 0.009240
+[2025.03.15-18.58.01:071][668]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2025.03.15-18.58.01:078][668]PIE: Server logged in
+[2025.03.15-18.58.01:079][668]PIE: Play in editor total start time 0.108 seconds.
+[2025.03.15-18.58.01:083][668]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.58.01:083][668]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.58.01:083][668]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.58.01:083][668]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.58.03:419][790]LogBlueprintUserMessages: [WB_PauseButton_C_0] Pausing
+[2025.03.15-18.58.05:020][886]LogBlueprintUserMessages: [WB_PauseButton_C_0] Pausing
+[2025.03.15-18.58.06:166][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.15-18.58.06:166][953]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.03.15-18.58.06:167][953]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.03.15-18.58.06:168][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.15-18.58.06:168][953]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.03.15-18.58.06:171][953]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.03.15-18.58.06:176][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.15-18.58.06:196][953]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.03.15-18.58.06:197][953]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.03.15-18.58.06:197][953]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.03.15-18.58.06:199][953]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.03.15-18.58.06:205][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.15-18.58.06:210][953]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.03.15-18.58.06:259][954]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2025.03.15-18.58.34:208][193]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.03.15-18.58.37:840][205]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.03.15-18.58.45:852][568]LogDerivedDataCache: C:/Users/ldima/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.03.15-18.58.47:498][662]Cmd: DELETE
+[2025.03.15-18.58.47:498][662]Cmd: ACTOR DELETE
+[2025.03.15-18.58.47:501][662]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.03.15-18.58.47:502][662]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.03.15-18.58.47:503][662]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.03.15-18.58.47:526][662]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.03.15-18.58.47:528][662]LogEditorActor: Deleted 3 Actors (0.029 secs)
+[2025.03.15-18.59.04:759][672]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.03.15-18.59.04:771][672]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.04:771][672]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.04:771][672]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.04:771][672]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.04:771][672]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.04:771][672]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.04:771][672]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.04:771][672]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.04:771][672]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.04:771][672]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.04:771][672]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.04:771][672]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.04:771][672]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.04:771][672]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.04:771][672]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.04:771][672]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.04:771][672]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.04:771][672]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.04:988][675]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.03.15-18.59.05:001][675]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.05:001][675]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.05:001][675]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.05:001][675]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.05:001][675]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.05:001][675]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.05:001][675]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.05:001][675]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.05:001][675]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.05:072][676]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.05:072][676]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.05:097][677]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.05:097][677]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.05:097][677]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.05:097][677]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.05:097][677]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.05:097][677]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.05:097][677]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.05:097][677]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.05:097][677]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-18.59.08:796][888]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.03.15-18.59.10:220][960]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/InteractableResources/BP_NPC.BP_NPC_C
+[2025.03.15-18.59.10:220][960]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/InteractableResources/BP_NPC.BP_NPC_C
+[2025.03.15-18.59.10:228][960]LogActorFactory: Actor Factory spawned Blueprint /Game/InteractableResources/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_NPC_C_0
+[2025.03.15-18.59.10:233][960]LogActorFactory: Actor Factory spawned Blueprint /Game/InteractableResources/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_NPC_C_0
+[2025.03.15-18.59.10:996][999]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.03.15-18.59.10:999][999]LogEditorActor: Deleted 0 Actors (0.029 secs)
+[2025.03.15-18.59.11:004][999]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/InteractableResources/BP_NPC.BP_NPC_C
+[2025.03.15-18.59.11:004][999]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/InteractableResources/BP_NPC.BP_NPC_C
+[2025.03.15-18.59.11:020][999]LogActorFactory: Actor Factory spawned Blueprint /Game/InteractableResources/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_NPC_C_UAID_B40EDE111592685502_1245152559
+[2025.03.15-18.59.11:025][999]LogActorFactory: Actor Factory spawned Blueprint /Game/InteractableResources/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_NPC_C_UAID_B40EDE111592685502_1245152559
+[2025.03.15-18.59.24:510][775]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.03.15-18.59.41:164][576]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.15-18.59.41:279][576]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.03.15-18.59.41:304][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.03.15-18.59.41:329][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.03.15-18.59.41:334][576]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/F/19/C0QYU7VOG7ZI6B5JNUMNYT
+[2025.03.15-18.59.41:334][576]LogSavePackage: Moving '../../../../../../Users/ldima/Documents/GitHub/Shrimp Space/shrimpfriedrice/Saved/C0QYU7VOG7ZI6B5JNUMNYTDEDD7D4249A1C8C47A841D973967B950.tmp' to '../../../../../../Users/ldima/Documents/GitHub/Shrimp Space/shrimpfriedrice/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/F/19/C0QYU7VOG7ZI6B5JNUMNYT.uasset'
+[2025.03.15-18.59.41:348][576]LogFileHelpers: InternalPromptForCheckoutAndSave took 184.762 ms
+[2025.03.15-18.59.41:476][576]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.15-18.59.41:476][576]LogContentValidation: Enabled validators:
+[2025.03.15-18.59.41:476][576]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.15-18.59.41:476][576]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.15-18.59.41:476][576]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.15-18.59.41:476][576]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.15-18.59.41:476][576]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.15-18.59.41:476][576]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.15-18.59.41:476][576]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
+[2025.03.15-18.59.41:493][576]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.03.15-19.00.10:793][292]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/InteractableResources/BP_NPC.BP_NPC_C
+[2025.03.15-19.00.10:793][292]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/InteractableResources/BP_NPC.BP_NPC_C
+[2025.03.15-19.00.10:801][292]LogActorFactory: Actor Factory spawned Blueprint /Game/InteractableResources/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_NPC_C_1
+[2025.03.15-19.00.10:806][292]LogActorFactory: Actor Factory spawned Blueprint /Game/InteractableResources/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_NPC_C_1
+[2025.03.15-19.00.11:601][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.03.15-19.00.11:604][332]LogEditorActor: Deleted 0 Actors (0.028 secs)
+[2025.03.15-19.00.11:610][332]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/InteractableResources/BP_NPC.BP_NPC_C
+[2025.03.15-19.00.11:610][332]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/InteractableResources/BP_NPC.BP_NPC_C
+[2025.03.15-19.00.11:622][332]LogActorFactory: Actor Factory spawned Blueprint /Game/InteractableResources/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_NPC_C_UAID_B40EDE111592685502_1305756560
+[2025.03.15-19.00.11:627][332]LogActorFactory: Actor Factory spawned Blueprint /Game/InteractableResources/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_NPC_C_UAID_B40EDE111592685502_1305756560
+[2025.03.15-19.00.14:013][463]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'DefaultForeground'.'
+[2025.03.15-19.00.54:368][464]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.15-19.00.54:487][464]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.03.15-19.00.54:513][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.03.15-19.00.54:538][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.03.15-19.00.54:543][464]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/Q8/EI058GV49ZXZBR1UCE29FA
+[2025.03.15-19.00.54:543][464]LogSavePackage: Moving '../../../../../../Users/ldima/Documents/GitHub/Shrimp Space/shrimpfriedrice/Saved/EI058GV49ZXZBR1UCE29FA75DBACC047085D8B7FC995813F04D03E.tmp' to '../../../../../../Users/ldima/Documents/GitHub/Shrimp Space/shrimpfriedrice/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/Q8/EI058GV49ZXZBR1UCE29FA.uasset'
+[2025.03.15-19.00.54:557][464]LogFileHelpers: InternalPromptForCheckoutAndSave took 189.935 ms (total: 374.697 ms)
+[2025.03.15-19.00.54:675][464]LogContentValidation: Display: Starting to validate 1 assets
+[2025.03.15-19.00.54:675][464]LogContentValidation: Enabled validators:
+[2025.03.15-19.00.54:675][464]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.15-19.00.54:675][464]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.15-19.00.54:675][464]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.15-19.00.54:675][464]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.15-19.00.54:675][464]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.15-19.00.54:675][464]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.15-19.00.54:675][464]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
+[2025.03.15-19.01.54:741][500]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/InteractableResources/BP_NPC.BP_NPC_C
+[2025.03.15-19.01.54:741][500]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/InteractableResources/BP_NPC.BP_NPC_C
+[2025.03.15-19.01.54:744][500]LogActorFactory: Actor Factory spawned Blueprint /Game/InteractableResources/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_NPC_C_2
+[2025.03.15-19.01.54:749][500]LogActorFactory: Actor Factory spawned Blueprint /Game/InteractableResources/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_NPC_C_2
+[2025.03.15-19.01.55:432][533]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.03.15-19.01.55:434][533]LogEditorActor: Deleted 0 Actors (0.039 secs)
+[2025.03.15-19.01.55:441][533]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/InteractableResources/BP_NPC.BP_NPC_C
+[2025.03.15-19.01.55:441][533]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/InteractableResources/BP_NPC.BP_NPC_C
+[2025.03.15-19.01.55:452][533]LogActorFactory: Actor Factory spawned Blueprint /Game/InteractableResources/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_NPC_C_UAID_B40EDE111592685502_1409587561
+[2025.03.15-19.01.55:457][533]LogActorFactory: Actor Factory spawned Blueprint /Game/InteractableResources/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_NPC_C_UAID_B40EDE111592685502_1409587561
+[2025.03.15-19.02.09:280][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.15-19.02.09:398][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.03.15-19.02.09:425][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.03.15-19.02.09:451][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.03.15-19.02.09:455][ 40]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/F/19/C0QYU7VOG7ZI6B5JNUMNYT
+[2025.03.15-19.02.09:456][ 40]LogSavePackage: Moving '../../../../../../Users/ldima/Documents/GitHub/Shrimp Space/shrimpfriedrice/Saved/C0QYU7VOG7ZI6B5JNUMNYT4D382016406ECDCAF84B9083AFECBAC9.tmp' to '../../../../../../Users/ldima/Documents/GitHub/Shrimp Space/shrimpfriedrice/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/F/19/C0QYU7VOG7ZI6B5JNUMNYT.uasset'
+[2025.03.15-19.02.09:459][ 40]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/Q8/EI058GV49ZXZBR1UCE29FA
+[2025.03.15-19.02.09:460][ 40]LogSavePackage: Moving '../../../../../../Users/ldima/Documents/GitHub/Shrimp Space/shrimpfriedrice/Saved/EI058GV49ZXZBR1UCE29FA4BBE5C4F4B41457E681CD4902F6E6647.tmp' to '../../../../../../Users/ldima/Documents/GitHub/Shrimp Space/shrimpfriedrice/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/Q8/EI058GV49ZXZBR1UCE29FA.uasset'
+[2025.03.15-19.02.09:463][ 40]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/2T/BHKP6NQCS9M83DMZCCBA49
+[2025.03.15-19.02.09:464][ 40]LogSavePackage: Moving '../../../../../../Users/ldima/Documents/GitHub/Shrimp Space/shrimpfriedrice/Saved/BHKP6NQCS9M83DMZCCBA49A89862464590EEB4DFDB9F803DD9E07A.tmp' to '../../../../../../Users/ldima/Documents/GitHub/Shrimp Space/shrimpfriedrice/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/2T/BHKP6NQCS9M83DMZCCBA49.uasset'
+[2025.03.15-19.02.09:476][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave took 195.976 ms (total: 570.673 ms)
+[2025.03.15-19.02.09:591][ 40]LogContentValidation: Display: Starting to validate 3 assets
+[2025.03.15-19.02.09:591][ 40]LogContentValidation: Enabled validators:
+[2025.03.15-19.02.09:591][ 40]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.03.15-19.02.09:591][ 40]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.03.15-19.02.09:591][ 40]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.03.15-19.02.09:591][ 40]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.03.15-19.02.09:591][ 40]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.03.15-19.02.09:591][ 40]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.03.15-19.02.09:592][ 40]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
+[2025.03.15-19.02.10:829][106]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.03.15-19.02.10:835][106]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.03.15-19.02.10:835][106]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.03.15-19.02.10:839][106]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 3.855 ms (total: 11.507 ms)
+[2025.03.15-19.02.10:839][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.03.15-19.02.10:839][106]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.03.15-19.02.10:846][106]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-19.02.10:846][106]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-19.02.10:848][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008337s)
+[2025.03.15-19.02.10:848][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.008370s)
+[2025.03.15-19.02.10:866][106]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.03.15-19.02.10:871][106]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.03.15-19.02.10:873][106]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.03.15-19.02.10:873][106]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.03.15-19.02.10:873][106]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.03.15-19.02.10:873][106]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.03.15-19.02.10:876][106]LogWorldPartition: Display: WorldPartition initialize took 3.339 ms (total: 185.905 ms)
+[2025.03.15-19.02.10:876][106]LogPlayLevel: PIE: World Init took: (0.005209s)
+[2025.03.15-19.02.10:877][106]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.03.15-19.02.10:877][106]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.03.15-19.02.10:877][106]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.03.15-19.02.10:877][106]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.03.15-19.02.10:877][106]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.03.15-19.02.10:877][106]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.03.15-19.02.10:877][106]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.03.15-19.02.10:877][106]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.03.15-19.02.10:877][106]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.03.15-19.02.10:877][106]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.03.15-19.02.10:877][106]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.03.15-19.02.10:877][106]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.03.15-19.02.10:879][106]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.03.15-19.02.10:923][106]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.03.15-19.02.10:923][106]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.03.15-19.02.10:923][106]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.03.15-19.02.10:923][106]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.03.15-19.02.10:924][106]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.03.15-19.02.10:924][106]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.03.15-19.02.10:926][106]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.03.15-19.02.10:926][106]LogInit: FAudioDevice initialized with ID 4.
+[2025.03.15-19.02.10:926][106]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.03.15-19.02.10:926][106]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2025.03.15-19.02.10:926][106]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.03.15-19.02.10:930][106]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.03.15-19.02.10:932][106]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-19.02.10:932][106]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-19.02.10:932][106]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-19.02.10:932][106]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-19.02.10:942][106]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-19.02.10:942][106]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-19.02.10:942][106]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-19.02.10:942][106]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-19.02.10:942][106]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-19.02.10:942][106]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-19.02.10:942][106]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-19.02.10:942][106]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-19.02.10:942][106]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-19.02.10:943][106]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.03.15-15.02.10
+[2025.03.15-19.02.10:947][106]LogWorld: Bringing up level for play took: 0.016975
+[2025.03.15-19.02.10:950][106]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2025.03.15-19.02.10:957][106]PIE: Server logged in
+[2025.03.15-19.02.10:958][106]PIE: Play in editor total start time 0.123 seconds.
+[2025.03.15-19.02.10:964][106]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-19.02.10:964][106]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-19.02.10:964][106]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-19.02.10:964][106]LogStaticMesh: Warning: Invalid material [SH_GlassShader] used on Nanite static mesh [WallsFINAL]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.03.15-19.02.18:104][522]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'InteractablesInRange' of length 0 in '/Game/InteractableResources/Interfaces/PlayerInteractionComponent.PlayerInteractionComponent_C'!
+[2025.03.15-19.02.18:105][522]LogScript: Warning: Script Msg called by: PlayerInteractionComponent_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0.PlayerInteractionComponent
+[2025.03.15-19.02.37:089][661]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'InteractablesInRange' of length 0 in '/Game/InteractableResources/Interfaces/PlayerInteractionComponent.PlayerInteractionComponent_C'!
+[2025.03.15-19.02.37:089][661]LogScript: Warning: Script Msg called by: PlayerInteractionComponent_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0.PlayerInteractionComponent
+[2025.03.15-19.02.39:720][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.15-19.02.39:720][817]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.03.15-19.02.39:721][817]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.03.15-19.02.39:722][817]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.15-19.02.39:722][817]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.03.15-19.02.39:726][817]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.03.15-19.02.39:731][817]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.15-19.02.39:757][817]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.03.15-19.02.39:757][817]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.03.15-19.02.39:757][817]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.03.15-19.02.39:760][817]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.03.15-19.02.39:765][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.03.15-19.02.39:772][817]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.03.15-19.02.39:815][818]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2025.03.15-19.02.43:146][995]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.15-19.02.43:278][995]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.03.15-19.02.43:308][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.03.15-19.02.43:337][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.03.15-19.02.43:346][995]LogFileHelpers: InternalPromptForCheckoutAndSave took 200.170 ms (total: 770.843 ms)
+[2025.03.15-19.03.01:990][312]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 370.431549
+[2025.03.15-19.03.02:991][315]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.15-19.03.02:991][315]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 371.098999, Update Interval: 327.157196
